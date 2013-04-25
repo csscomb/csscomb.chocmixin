@@ -15,13 +15,14 @@ var spawn = require('child_process').spawn;
  */
 
 Hooks.addMenuItem('Actions/CSS/Sort via CSScomb', 'control-shift-c', function() {
-  var output = '', err = '', sel, text, comb;
+  var output = '', err = '', sel, text, comb, scope;
   
   Recipe.run(function(recipe) {
     sel = (!recipe.selection.length)? new Range(0, recipe.length) : recipe.selection;
     text = recipe.textInRange(sel);
+    scope = Document.current().rootScope();
     
-    if (!text || Document.current().rootScope() !== 'css.source') {
+    if (!text || [ 'css.source', 'less.source', 'sass.source' ].indexOf(scope) === -1) {
       Alert.beep();
       return;
     }
