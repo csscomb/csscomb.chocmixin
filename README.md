@@ -9,7 +9,7 @@ CSS properties in specific order
 
 ## Installation
 
-This mixin will be installable with Chocolat's Extras Manager when the new version is released. Until then, do something like:
+This mixin is be installable with Chocolat using the `Actions > Instal Mixins...` menu. Alternatively, you can clone the source with something like:
 
     mkdir -p ~/Library/Application\ Support/Chocolat/Mixins/
     git clone https://github.com/drudge/csscomb.chocmixin.git ~/Library/Application\ Support/Chocolat/Mixins/csscomb.chocmixin
@@ -24,7 +24,7 @@ The following are the major contributors in no specific order:
 
 (The MIT License)
 
-Copyright (c) 2012 Nicholas Penree &lt;nick@penree.com&gt;
+Copyright (c) 2013 Nicholas Penree &lt;nick@penree.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

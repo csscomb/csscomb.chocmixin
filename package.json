@@ -1,16 +1,19 @@
 {
-  "name": "csscomb",
-  "version": "1.0.2",
+  "name": "csscomb.chocmixin",
+  "version": "2.0.0",
   "description": "Sort CSS properties in specific order from Chocolat",
   "main": "init.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/drudge/csscomb.chocmixin.git"
+    "url": "https://github.com/csscomb/csscomb.chocmixin.git"
   },
   "keywords": [
     "css",
     "csscomb"
   ],
   "author": "Nicholas Penree <nick@penree.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "csscomb": "~1.0.0"
+  }
 }
