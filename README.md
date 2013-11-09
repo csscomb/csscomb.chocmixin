@@ -1,7 +1,8 @@
 # CSScomb mixin for Chocolat
 
 This mixin adds [CSScomb](http://csscomb.com) support to [Chocolat](http://chocolatapp.com). CSScomb is a tool for sorting 
-CSS properties in specific order
+CSS properties in specific order. Version 2.0 of the mixin changes to [csscomb.js](https://github.com/csscomb/csscomb.chocmixin). If for some reason you would like to go back to the PHP version, you can grab that release [here](https://github.com/csscomb/csscomb.chocmixin/releases/tag/v1.0.2).
+
 
 ## Requirements
 
